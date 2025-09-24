@@ -33,6 +33,18 @@ ul {
   align-items: center;
 }
 
+.mobile {
+  display: none;
+}
+@media (max-width: 800px) {
+  .mobile {
+      display: flex;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
 
 p {
   line-height: 1.5;
